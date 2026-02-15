@@ -1,0 +1,11 @@
+export { computeE1RM, maxE1RMFromSets, brzycki, epley } from './e1rm';
+export type { E1RMResult } from './e1rm';
+export { setTonnage, exerciseTonnage, sessionTonnage, tonnageByTier, tonnageByExercise } from './tonnage';
+export { computeINOL, exerciseINOL } from './inol';
+export type { INOLResult } from './inol';
+export { detectPRs, candidatesToRecords } from './pr';
+export type { PRCandidate } from './pr';
+export { checkE1RMDrop, checkRPEStreak } from './fatigue';
+export type { FatigueFlag } from './fatigue';
+export { wilks, dots } from './competition';
+export { rtsLookup, RTS_TABLE } from './rts-table';
